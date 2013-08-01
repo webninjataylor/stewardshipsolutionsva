@@ -1,0 +1,143 @@
+body { 
+  /*background-color: #57000B;
+  background-image: url('../images/layout/bg_stripe.png');
+  background-repeat: repeat-x repeat-y;*/
+  font-family:"Gill Sans","Gill Sans MT", Arial, Verdana, Helvetica, sans-serif;
+ }
+
+div.header_container {
+  width: 100%;
+  height: 250px;
+  background-color: #fff;
+}
+ 
+#logo { 
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+div.content_container {
+  width: 100%;
+  background-color: #57000b;
+  padding-top: 40px;
+  height: 1330px;
+ }
+
+div.content_upper, div.content_lower {
+	text-align: center;
+}
+
+div.content_upper {
+	margin-top: 10px;
+}
+
+div.content_main {
+	position: relative;
+	width: 655px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	z-index: 12;
+
+}
+
+div.content_box { 
+  position: relative;
+  background-image: url('../images/layout/content_695x1300.png');
+  background-repeat: no-repeat;
+  width: 695px;
+  height: 1330px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  z-index: 10;
+ }
+ 
+div.circle-of-rings {
+  background-image: url('../images/layout/circle-of-rings-effect.png');
+  background-repeat: no-repeat;
+  position: relative;
+  top: -1000px;
+  z-index: 1;
+  width: 500px;
+  height: 500px;
+  margin-left: 65%;
+  margin-bottom: -1300px;
+}
+
+#footer {
+  width: 100%;
+  height: 130px;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: x-small;
+  color: #8a8a8a;
+}
+
+.top-margin {
+	height: 1px;
+}
+ 
+div.content p {
+	color: #fff;
+}
+
+.left-float-image {
+  border: 10px solid #fff;
+	float: left;
+	margin-right: 10px;
+  width: 230px;
+}
+
+
+ul { 
+  list-style-image: url('../images/layout/CircleRing-BulletSize-ClearBG.png')
+}
+
+.main_links a:link {color: #FE661C; text-decoration: none}
+.main_links a:visited {color: #a0a0a0; text-decoration: none}
+.main_links a:hover {color: #FE661C; text-decoration: underline}
+.main_links a:active {color: #FE661C; text-decoration: underline}
+
+.ao_links a:link {color: #5F5D5D; text-decoration: underline}
+.ao_links a:visited {color: #57000B; text-decoration: underline}
+.ao_links a:active {color: #800909; text-decoration: underline}
+.ao_links a:hover {color: #800909; text-decoration: underline}
+
+#aoFooter {
+	width:  200px;
+	height:  33px;
+	background:  url('../images/spriteImage-200px.png');
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:  0px;
+	margin-bottom: 0px;
+	position: relative;
+}
+
+#aoFooter li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	top: 0;
+	display: inline;
+}
+
+#aoFooter li, #aoFooter a {
+	height: 33px;
+	display: block;
+}
+
+#panel1a {
+	left: 0;
+	width: 200px;
+}
+
+#panel1a a:hover {
+	background:  url('../images/spriteImage-200px.png') 0 -33px no-repeat;	
+}
