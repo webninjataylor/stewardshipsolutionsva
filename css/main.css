@@ -1,0 +1,47 @@
+body {
+    font-family: "Gill Sans","Gill Sans MT", Arial, Verdana, Helvetica, sans-serif;
+}
+header {
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+}
+#site-logo {
+    margin: 0 auto;
+}
+.site-button {
+    width: 100%;
+}
+.buttons {
+    padding: 10px 0;
+}
+.main-content {
+    background: #57000b url('../images/layout/circle-of-rings-effect.png') no-repeat right top;
+    color: #ffffff;
+}
+.content-bg {
+    background-color: rgba(0,0,0,.2);
+    border-radius: 30px;
+    margin: 20px 0;
+    overflow: hidden;
+    padding: 1px 20px 20px 20px;
+}
+.left-float-image {
+    border: 10px solid #fff;
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 230px;
+}
+.main_links a:link {color: #FE661C; text-decoration: none}
+.main_links a:visited {color: #a0a0a0; text-decoration: none}
+.main_links a:hover {color: #FE661C; text-decoration: underline}
+.main_links a:active {color: #FE661C; text-decoration: underline}
+ul { 
+    list-style-image: url('../images/layout/CircleRing-BulletSize-ClearBG.png')
+}
+footer {
+    color: #8a8a8a;
+    font-size: x-small;
+    padding: 10px;
+    text-align: center;
+}
