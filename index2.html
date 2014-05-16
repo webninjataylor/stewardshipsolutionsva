@@ -21,7 +21,20 @@
             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
         })();
+
+
+
+var updateLayout = function() {
+  if (window.innerWidth != currentWidth) {
+    document.body.setAttribute("orient", "profile");
+    window.scrollTo(0, 1);
+  }
+};
+
+iPhone.DomLoad(updateLayout);
+setInterval(updateLayout, 400);
         </script>
+        
 </head>
 <body>
 <!--

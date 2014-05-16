@@ -32,10 +32,10 @@ header {
     margin: 0 10px 10px 0;
     width: 230px;
 }
-.main_links a:link {color: #FE661C; text-decoration: none}
-.main_links a:visited {color: #a0a0a0; text-decoration: none}
-.main_links a:hover {color: #FE661C; text-decoration: underline}
-.main_links a:active {color: #FE661C; text-decoration: underline}
+.main_links:link {color: #FE661C; text-decoration: none}
+.main_links:visited {color: #FE661C; text-decoration: none}
+.main_links:hover {color: #FE661C; text-decoration: underline}
+.main_links:active {color: #FE661C; text-decoration: underline}
 ul { 
     list-style-image: url('../images/layout/CircleRing-BulletSize-ClearBG.png')
 }
